@@ -4,7 +4,7 @@
   "description": "real-time chat application",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "keywords": [
     "mern",
@@ -13,6 +13,8 @@
   "author": "Swapnil Patil",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
   }
 }
